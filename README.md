@@ -61,7 +61,3 @@ Depending on the number of data the user wants, you can use :
 
 5. **Revocability**
    - To suppress a signer from a ring, by turning them into a non-signer and then clipping them out of the ring, after that the user can sign the document using the TRS function and the newly formed ring.
-## Limitations
-
-- Only PDF files are supported.  
-- The PKI file is stored in plaintext, though keys are encoded in hexadecimal.
